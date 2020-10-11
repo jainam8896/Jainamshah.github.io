@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>COLLEGE LIFE</title>
+    </head>
+    <body bgcolor="lightblue">
+        <form action="HTML Form.html" method="post">
+           <h1><font size="50" color="red" face="Castellar"><b><u><center>REGISTRATION FROM</center></u></b></font></h1>
+                <fieldset>
+                
+                    <legend style="color: crimson;"><b><center>Your Basic Information</center></b></legend>
+                    
+                    <label><b>Upload Photo:-</b></label><br>
+                    <input type="file" accept=".jpg"><br><br>
+
+                    <label for="name"><b>Name:-</b></label><br>
+                    <input type="text" id="name" name="user_name" placeholder="Enter Name"><br><br>
+                    
+                    <label for="email"><b>Email:-</b></label><br>
+                    <input type="email" id="email" name="user_email" placeholder="Enter Email-id"><br><br>
+                    
+                    <label for="password"><b>password:-</b></label><br>
+                    <input type="password" id="password" name="user_password" placeholder="Enter Password"><br><br>
+                
+                    <label><b>Gender:-</b></label><br>
+                    
+                    <input type="radio" id="male" value="male" name="user_gender">
+                    <label for="male">Male</label>
+        
+                    <input type="radio" id="female" value="female" name="user_gender">
+                    <label for="female">female</label>
+                </fieldset>   
+
+            <fieldset>
+                <legend style="color: red;"><b><center>Your Profile Information</center></b></legend>
+            
+                <label for="bio"><b>Biography:-</b></label><br>
+                <textarea id="bio" name="user_bio" placeholder="Enter Bio-data"></textarea><br><br>
+
+                <label for="job"><b>Job Information:-</b></label><br>
+                <select id="job" name="user_name">
+                    <option value="Select Job">Select Job</option>
+                    <optgroup label="Language Developer">
+                        <option value="Web Developer">Web Developer</option>
+                        <option value="C Developer">C Developer</option>
+                        <option value="C++ Developer">C++ Developer</option>
+                        <option value="PHP Developer">PHP Developer</option>
+                        <option value="Phython Developer">Phython Developer</option>
+                    </optgroup>
+
+                    <optgroup label="Mobile Developer">
+                        <option value="IOS Developer">IOS Developer</option>
+                        <option value="Andriod Developer">Andriod Developer</option>
+                        <option value="Flutter Developer">Flutter Developer</option>
+                    </optgroup>
+
+                    <optgroup label="Bussiness Person">
+                        <option value="Finance">Finance</option>
+                        <option value="Real-Esatde">Real-Esatde</option>
+                        <option value="Tex-Tile">Tex-Tile</option>
+                    </optgroup>
+                </select>
+                <br>
+                <br>
+                
+                <label><b>Choose Inserted Language:-</b></label><br>
+               
+                <input type="checkbox" id="html" value="html" name="Language">
+                <label for="html">HTML</label>
+
+                
+                <input type="checkbox" id="css" value="css" name="Language">
+                <label for="css">CSS</label>
+
+                
+                <input type="checkbox" id="javascript" value="javascript" name="Language">
+                <label for="javascript">JAVASCRIPT</label>
+
+                <input type="checkbox" id="java" value="java" name="Language">
+                <label for="java">JAVASCRIPT</label>
+            </fieldset>
+            <br>
+            
+              <button type="submit"><a href="http://www.navnirmanmandal.in/" style="text-decoration: none;">Signup</a></button>
+              <button type="reset">clear</button>
+              <br><br>
+              <hr>
+              <center><button type="button"><a href="map.html" style="text-decoration: none;">GOOGLE MAP(drb location)</a></button></center><hr>
+            </form>
+    </body>
+</html>
